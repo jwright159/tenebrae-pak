@@ -1,0 +1,5 @@
+{
+	'name': 'Default dance',
+	'skin_atlas': 'flat/skin.atlas',
+	'skin_json': 'flat/skin.json'
+}
