@@ -1,0 +1,45 @@
+I need spites of Typer and Tesla for a Sans-like fight
+So like 45deg athletic/battle stances or something
+I need individual moving parts though, so I can animate them (eg. torso, arms, legs, ears, head would all be seperate)
+Pixel or smooth idc
+But they shuld be toony and mostly outlined in an accent color
+
+Typer:
+Blue furry longboy
+Main weapon is a long staff
+I need mostly anthro but also like one feral
+I have the canonalized 3d models for any refs you need anyway
+Poses:
+1. static assertive stance of glaring at viewer
+- also one w right hand opened w fingers in magic fire
+2. static anime foreboding stance (like where the whole top half of the face is shadowed)
+3. anim sequence for throwing staves: stance holding nothing -> right arm holding staff to throw -> left arm holding another staff -> both arms in thrown position
+- hands must be seperate from arms, need to rotate them individually (can be rectangles for all I care)
+- also need just a sprite of a staff for mid-flight in Ty's staff color, but also 2 in Tes's primary colors (can be rectangles for all I care)
+4. floating in air w eyes glowing + phi eye
+5. athletic/fighting stance w magic fire hands w more parts that I can animate on loop
+- also one with phi eye
+6. feral flying pose w a repeatable segment part
+
+Tesla:
+Generic wolf furry
+I know most of her pallete but idk
+I also have like no refs so
+1. standing straight, one arm out palm out in 4 different positions at corners of a square
+- also another other arm sprite w casting phi
+2. same as main of #1 but in an athletic stance
+- also one w magic fire fingers
+- one more w magic + casting phi
+3. same as main of Ty#1
+- also just like 2 sprite parts of each wing
+
+Ranking
+Ty 1
+Tes 3
+Ty 5
+Tes 2
+Ty 4
+Ty 6
+Tes 1
+Ty 3
+Ty 2

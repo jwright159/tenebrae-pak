@@ -1,0 +1,61 @@
+0:00:
+	lead  - rods drop from top
+0:10:
+	bass  - box expands, covers ty
+0:20:
+	ty solemn
+	bass  - squares grow / shrink
+	arp   - stars fall from top
+0:35:
+	drum  - ty throws rods (kick - grab, snare - throw)
+	lead  - short rods fall up from bottom
+0:48:
+	bass  - big squares
+	lead  - rods lengthen
+1:00:
+	lead  - rods from sides
+	drums - ty grabs one in each hand
+1:09:
+	drop  - ty eyes close, reopens w phi
+	growl - ty jumps
+	pads  - sine rods on sides, changes freq w every drop
+	lead  - rods fall from top
+	drums - thin columns
+	arp   - short rod spikes from bottom
+	bells - drop bottom
+1:36:
+	tes joins
+	drop  - ty no longer has phi, box returns w < 4tr area oscillating in circle, bluebones
+2:05:
+	ty leaves
+	same as 0:20 b w box oscillating side to side
+	bass  - squares not in box, deudly expanding box walls
+	drum  - random blue/orangebones from all sides, box width
+	lead  - rods constrained to box + some margin
+2:19:
+	starts oscilating upward too
+	drums - clap shotgun, revclap pulls rods back
+2:32:
+	lead  - rods from bottom
+	drums - raise box in order to throw
+2:35:
+	pads  - sine but freq oscillates
+	growl - ty flies diag down (alternates), leaves trail of oscillating alternating blue/orangebones that rise/fall
+	arp   - short rods from top (double)
+	drums - columns and rows, every other beat box moves 4rnt, alt blue/orangebones
+	lead  - rods fly from sides
+3:00:
+	drum  - columns slow, box moves 4rnt
+	arp   - stars fall from top + bottom
+	lead  - rods fly from sides slower (double)
+	pads  - sine
+3:28:
+	box < 4tr area oscillating in circle
+	lead  - big squares
+	bells - rods fall from top
+	drums - shotgun rods
+	arp   - short rods on ceiling
+3:55:
+	same as 0:20
+	box returns to normal
+	lead  - big square on inside

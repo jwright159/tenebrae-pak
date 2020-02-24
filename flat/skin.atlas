@@ -105,3 +105,11 @@ window-resize
   orig: 13, 34
   offset: 0, 0
   index: -1
+bone-vert
+  rotate: false
+  xy: 7, 1
+  size: 9, 13
+  split: 4, 4, 6, 6
+  orig: 7, 1
+  offset: 0, 0
+  index: -1

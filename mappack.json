@@ -1,5 +1,6 @@
 {
-	'name': 'Default dance',
+	'name': 'TenEn demo\nLo2 fight',
 	'skin_atlas': 'flat/skin.atlas',
-	'skin_json': 'flat/skin.json'
+	'skin_json': 'flat/skin.json',
+	'menu_bg': 'menubg.png'
 }

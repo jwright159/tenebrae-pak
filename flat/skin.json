@@ -23,6 +23,13 @@
     fontChecked: white
     fontCheckedOver: white
     fontDisabled: gray
+    
+    lightblue500: { r: 0.01, g: 0.66, b: 0.96, a: 1 }
+    indigo500: { r: 0.25, g: 0.32, b: 0.71, a: 1 }
+    cyan500: { r: 0, g: 0.74, b: 0.83, a: 1 }
+    blue500: { r: 0.13, g: 0.59, b: 0.95, a: 1 }
+    amber500: { r: 1, g: 0.76, b: 0.03, a: 1 }
+    orange500: { r: 1, g: 0.60, b: 0, a: 1 }
   },
   com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
     background: { name: rect, color: gray },
@@ -85,8 +92,18 @@
     windowBorder: { name: window-border, color: background },
     alpha: { name: dot, color: semiTransparent },
     
+    barback: { name: line-v, color: { r: .3, g: .3, b: .3, a: 1 } }
     health: { name: line-v, color: { r: 1, g: 0, b: 0, a: 1 } },
-    mana: { name: line-v, color: { r: 0, g: 0, b: 1, a: 1 } }
+    mana: { name: line-v, color: { r: 0, g: 0, b: 1, a: 1 } },
+    level: { name: line-v, color: { r: 1, g: 1, b: 0, a: 1 } },
+    
+    arp: { name: white, color: { r: 0.9, g: 0.9, b: 1, a: 1 } }
+    pads: { name: white, color: blue500 }
+    bluebones: { name: white, color: orange500 }
+    drums: { name: white, color: amber500 }
+    bass: { name: white, color: lightblue500 }
+    
+    black: { name: white, color: black }
   },
   com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
     default: { up: buttonUp, over: buttonOver, down: buttonDown, disabled: buttonDisabled },
@@ -120,6 +137,8 @@
     health: { background: progressHorizontal, knobBefore: health, 
       disabledBackground: progressHorizontalDisabled, disabledKnobBefore: progressHorizontalKnobDisabled },
     mana: { background: progressHorizontal, knobBefore: mana, 
+      disabledBackground: progressHorizontalDisabled, disabledKnobBefore: progressHorizontalKnobDisabled },
+    level: { background: progressHorizontal, knobBefore: level, 
       disabledBackground: progressHorizontalDisabled, disabledKnobBefore: progressHorizontalKnobDisabled }
   },
   com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
