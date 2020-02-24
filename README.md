@@ -1,25 +1,4 @@
-# Tenebrae Engine sample mappacks
-Repo for mappacks for [the Tenebrae RPG Engine](https://github.com/jwright159/tenebrae).
+# RPG sxample mappack for Tenebrae Engine
+This mappack contains a lot of code that is either way outdated or has features that aren't implemented yet, but it should contain enough sample code to do some basic RPG tasks.
 
-## Mappacks
-- pak: generic RPG functionality
-- lo2: advanced entity functionality
-
-## Installation
-### Android
-Mappacks should be cloned into `/sdcard/WrightWay/Tenebrae/(mappack name)`
-
-### Everything else
-Lol not yet
-
-## Debug Verbosity
-`/sdcard/WrightWay/Tenebrae/v` should be a text file with seven 1s or 0s depending on verbosity in this order:
-- `GMPLY`: gameplay such as entities or triggers
-- `AUDIO`: music and midi files
-- `GRAPH`: graphics and textures
-- `USINT`: UI mapping
-- `DEBUG`: important debug info
-- `USERS`: in-game scripting via `println(...)`
-- `ERROR`: errors
-
-For example, a common setting would be `0000111`.
+Most of the assets are free assets I found online via Google. Music and some assets are ripped from Undertale.

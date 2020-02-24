@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0.0" orientation="orthogonal" renderorder="right-up" width="10" height="10" tilewidth="32" tileheight="32" nextobjectid="31">
+ <tileset firstgid="1" source="desert.tsx"/>
+ <tileset firstgid="57" source="newchar02-2.tsx"/>
+ <tileset firstgid="69" source="coolhat.tsx"/>
+ <tileset firstgid="81" source="rabbit_rock.tsx"/>
+ <layer name="Tile_Layer_1" width="10" height="10">
+  <properties>
+   <property name="collide" type="bool" value="true"/>
+  </properties>
+  <data encoding="csv">
+30,30,30,30,33,35,30,30,30,30,
+30,1,2,3,33,35,1,2,3,30,
+30,17,18,19,33,35,17,21,11,30,
+30,30,30,25,45,35,30,9,11,30,
+30,30,30,33,36,43,30,9,11,30,
+30,38,25,45,35,30,1,29,11,30,
+30,30,33,36,43,30,17,18,19,30,
+30,30,33,35,30,32,30,6,7,8,
+40,30,33,35,30,30,30,14,4,24,
+30,30,33,35,30,30,30,22,24,30
+</data>
+ </layer>
+ <objectgroup name="Object_Layer_1">
+  <object id="15" name="rockTrigger" x="160" y="224" width="32" height="32">
+   <properties>
+    <property name="onTrigger">rockDialogTrigger
+</property>
+   </properties>
+  </object>
+  <object id="16" name="player" gid="57" x="128" y="81" width="36" height="36"/>
+  <object id="18" name="plant2Trigger" x="0" y="256" width="32" height="32">
+   <properties>
+    <property name="onTrigger">plant2Trigger1
+</property>
+   </properties>
+  </object>
+  <object id="19" name="plant1Trigger" x="32" y="160" width="32" height="32">
+   <properties>
+    <property name="onTrigger">plant1Trigger
+</property>
+   </properties>
+  </object>
+  <object id="20" name="nextMapTrigger" x="288" y="0" width="32" height="32">
+   <properties>
+    <property name="onTrigger">justLoadTheNextMapAlready
+</property>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

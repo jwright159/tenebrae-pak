@@ -1,5 +1,6 @@
 {
-	'name': 'Default dance',
-	'skin_atlas': 'flat/skin.atlas',
-	'skin_json': 'flat/skin.json'
+	'name': 'Pak',
+	'skin_atlas': 'skin/craftacular-ui.atlas',
+	'skin_json': 'skin/craftacular-ui.json',
+	'menu_bg': 'menubg.png'
 }
