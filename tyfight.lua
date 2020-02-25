@@ -1507,6 +1507,7 @@ function onCreate(self)
 		ent.isVisible = blockVisible
 		local oldX, oldY = box.x, box.y
 		local oldW, oldH = box.width, box.height
+		local tesArmORot, tesArmBRot = tesArmO.rotation, tesArmB.rotation
 		function ent:act(delta)
 			local alpha = self.lifetime/(qtrlen*2)
 			if alpha > 1 then
@@ -1521,8 +1522,14 @@ function onCreate(self)
 			box.y = applyInterp('linear', alpha, oldY, screenY+drums_boxillate_margin)
 			box.width  = applyInterp('linear', alpha, oldW, 4*unit)
 			box.height = applyInterp('linear', alpha, oldH, 4*unit)
+			tesArmO.rotation = applyInterp('sineIn', alpha, tesArmORot, math.pi/4)
+			tesArmB.rotation = applyInterp('sineIn', alpha, tesArmBRot, -math.pi/4)
 		end
 		Entity.add(ent)
+		
+		tesArmO.act = nil
+		tesArmB.act = nil
+		tesArmO:setPhi(true)
 		
 		musicmachine['drums'] = nil
 	end
